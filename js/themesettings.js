@@ -251,7 +251,7 @@ function checkUserVariableThemeSettings() {
                 });
                                 
                 if(didDomoticzHaveSettings === false){
-                    storeUserVariableThemeSettings("add");
+                    storeUserVariableThemeSettings("save");
                 }                
             }           
         },
